@@ -1,0 +1,19 @@
+.main-title {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../../images/imagehead.jpg");
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+  line-height: 4em;
+  text-align: center;
+
+  span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+  }
+}

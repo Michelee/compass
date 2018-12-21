@@ -1,0 +1,60 @@
+.our-work {
+  background-image: url("../../../images/ourwork-bg.jpg");
+  background-repeat: round;
+  display: flex;
+  align-items: center;
+  padding: 2em 0;
+
+  @media screen and (max-width: 576px){
+    flex-direction: column-reverse;
+  }
+
+  div {
+    width: 50%;
+    margin-left: 3em;
+
+    @media screen and (max-width: 576px){
+      width: 100%;
+      margin-left: 0;
+    }
+    
+    &:first-child {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+  .our-work-desc {
+    @media screen and (max-width: 576px){
+      text-align: center;
+    }
+  }
+
+  img {
+    margin: auto;
+    
+    @media screen and (max-width: 576px){
+      width: 70%;
+    }
+  }
+
+  h2 {
+    max-width: 315px;
+    margin: 1em auto 1em 0;
+
+    @media screen and (max-width: 576px){
+      margin: auto;
+    }
+  }
+
+  p {
+    max-width: 315px;
+    font-size: 21px;
+    margin: 1em auto 1em 0;
+
+    @media screen and (max-width: 576px){
+      font-size: 16px;
+      margin: 1em auto;
+    }
+  }
+}
